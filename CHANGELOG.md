@@ -1,3 +1,12 @@
+## [1.0.6](https://github.com/shentuzhigang/vuepress-plugin-live2d/compare/v1.0.5...v1.0.6) (2022-09-18)
+
+
+### Bug Fixes
+
+* fix ([cb767f0](https://github.com/shentuzhigang/vuepress-plugin-live2d/commit/cb767f0c36535295f29cdb85fefda22fe74001f7))
+
+
+
 ## [1.0.5](https://github.com/shentuzhigang/vuepress-plugin-live2d/compare/v1.0.4...v1.0.5) (2022-09-18)
 
 
