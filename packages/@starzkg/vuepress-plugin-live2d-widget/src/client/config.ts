@@ -11,7 +11,9 @@ const live2dWidgetPluginOptions = LIVE2D_WIDGET_OPTIONS
 export default defineClientConfig({
   async enhance() {
     if (!__VUEPRESS_SSR__) {
-      const { L2Dwidget } = await import('live2d-widget')
+      const { L2Dwidget } = await import(
+        /* webpackChunkName: "live2d-widget" */ 'live2d-widget'
+      )
       if (live2dWidgetPluginOptions.dev?.log) {
         L2Dwidget.on('*', (name) => {
           console.log(
