@@ -104,18 +104,6 @@ importers:
       vue: 3.2.37
       vuepress: 2.0.0-beta.50_mzianicjaaftq3nxa62pqholda
 
-  packages/@starzkg/vuepress-plugin-live2d:
-    specifiers:
-      '@vuepress/client': 2.0.0-beta.50
-      '@vuepress/core': 2.0.0-beta.50
-      '@vuepress/shared': 2.0.0-beta.50
-      '@vuepress/utils': 2.0.0-beta.50
-    dependencies:
-      '@vuepress/client': 2.0.0-beta.50
-      '@vuepress/core': 2.0.0-beta.50
-      '@vuepress/shared': 2.0.0-beta.50
-      '@vuepress/utils': 2.0.0-beta.50
-
   packages/@starzkg/vuepress-plugin-live2d-widget:
     specifiers:
       '@vuepress/client': 2.0.0-beta.50
