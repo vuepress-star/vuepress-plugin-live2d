@@ -1,6 +1,6 @@
 {
   "name": "@starzkg/vuepress-plugin-live2d-widget",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Live2D Widget plugin for VuePress",
   "keywords": [
     "vuepress-plugin",
