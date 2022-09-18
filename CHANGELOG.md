@@ -1,3 +1,7 @@
+## [1.0.12](https://github.com/shentuzhigang/vuepress-plugin-live2d/compare/v1.0.11...v1.0.12) (2022-09-18)
+
+
+
 ## [1.0.11](https://github.com/shentuzhigang/vuepress-plugin-live2d/compare/v1.0.10...v1.0.11) (2022-09-18)
 
 

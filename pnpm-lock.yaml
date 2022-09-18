@@ -106,23 +106,19 @@ importers:
 
   packages/@starzkg/vuepress-plugin-live2d-widget:
     specifiers:
-      '@vuepress/bundler-vite': 2.0.0-beta.50
       '@vuepress/client': 2.0.0-beta.50
       '@vuepress/core': 2.0.0-beta.50
       '@vuepress/shared': 2.0.0-beta.50
       '@vuepress/utils': 2.0.0-beta.50
       current-device: ^0.10.2
       live2d-widget: ^3.1.4
-      vite: ~3.0.9
     dependencies:
-      '@vuepress/bundler-vite': 2.0.0-beta.50
       '@vuepress/client': 2.0.0-beta.50
       '@vuepress/core': 2.0.0-beta.50
       '@vuepress/shared': 2.0.0-beta.50
       '@vuepress/utils': 2.0.0-beta.50
       current-device: 0.10.2
       live2d-widget: 3.1.4
-      vite: 3.0.9
 
 packages:
 

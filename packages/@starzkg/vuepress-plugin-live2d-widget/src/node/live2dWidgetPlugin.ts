@@ -1,8 +1,6 @@
-import type { ViteBundlerOptions } from '@vuepress/bundler-vite'
 import type { Plugin } from '@vuepress/core'
 import { isLinkHttp } from '@vuepress/shared'
 import { getDirname, logger, path } from '@vuepress/utils'
-import { mergeConfig } from 'vite'
 import type { Live2dWidgetPluginOptions } from '../shared/index.js'
 import models from './model.js'
 const __dirname = getDirname(import.meta.url)
@@ -28,19 +26,6 @@ export const live2dWidgetPlugin =
 
     return {
       name: '@starzkg/vuepress-plugin-live2d-widget',
-      extendsBundlerOptions: (config: unknown, app) => {
-        if (app.env.isDev && app.options.bundler.name.endsWith('vite')) {
-          const bundlerConfig = <ViteBundlerOptions>config
-          bundlerConfig.viteOptions = mergeConfig(
-            bundlerConfig.viteOptions || {},
-            {
-              optimizeDeps: {
-                include: ['live2d-widget'],
-              },
-            }
-          )
-        }
-      },
       define: () => ({
         LIVE2D_WIDGET_OPTIONS: options,
       }),

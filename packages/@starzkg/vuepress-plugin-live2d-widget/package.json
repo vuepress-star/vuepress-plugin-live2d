@@ -1,6 +1,6 @@
 {
   "name": "@starzkg/vuepress-plugin-live2d-widget",
-  "version": "1.0.11",
+  "version": "1.0.12",
   "description": "Live2D Widget plugin for VuePress",
   "keywords": [
     "vuepress-plugin",
@@ -40,14 +40,12 @@
     "copy": "cpx \"src/**/*.{css,svg,vue,scss,d.ts}\" lib"
   },
   "dependencies": {
-    "@vuepress/bundler-vite": "2.0.0-beta.50",
     "@vuepress/client": "2.0.0-beta.50",
     "@vuepress/core": "2.0.0-beta.50",
     "@vuepress/shared": "2.0.0-beta.50",
     "@vuepress/utils": "2.0.0-beta.50",
     "current-device": "^0.10.2",
-    "live2d-widget": "^3.1.4",
-    "vite": "~3.0.9"
+    "live2d-widget": "^3.1.4"
   },
   "publishConfig": {
     "access": "public"
