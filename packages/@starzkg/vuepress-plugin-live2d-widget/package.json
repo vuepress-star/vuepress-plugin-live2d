@@ -1,6 +1,6 @@
 {
   "name": "@starzkg/vuepress-plugin-live2d-widget",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Live2D Widget plugin for VuePress",
   "keywords": [
     "vuepress-plugin",
@@ -37,7 +37,7 @@
   "scripts": {
     "build": "tsc -b tsconfig.build.json",
     "clean": "rimraf lib *.tsbuildinfo",
-    "copy": "cpx \"src/**/*.{css,svg,vue,scss}\" lib"
+    "copy": "cpx \"src/**/*.{css,svg,vue,scss,d.ts}\" lib"
   },
   "dependencies": {
     "@vuepress/client": "2.0.0-beta.50",
