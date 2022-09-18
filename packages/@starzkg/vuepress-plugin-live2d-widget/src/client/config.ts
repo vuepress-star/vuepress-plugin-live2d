@@ -1,5 +1,4 @@
 import { defineClientConfig } from '@vuepress/client'
-import { L2Dwidget } from 'live2d-widget'
 import type { Live2dWidgetPluginOptions } from '../shared/index.js'
 import { changeDialogMessage } from './utils/index.js'
 
@@ -10,8 +9,11 @@ declare const LIVE2D_WIDGET_OPTIONS: Live2dWidgetPluginOptions
 const live2dWidgetPluginOptions = LIVE2D_WIDGET_OPTIONS
 
 export default defineClientConfig({
-  enhance() {
+  async enhance() {
     if (!__VUEPRESS_SSR__) {
+      const { L2Dwidget } = await import(
+        /* webpackChunkName: "live2d-widget" */ 'live2d-widget'
+      )
       if (live2dWidgetPluginOptions.dev?.log) {
         L2Dwidget.on('*', (name) => {
           console.log(
