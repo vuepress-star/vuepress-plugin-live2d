@@ -1,0 +1,9 @@
+{
+  "extends": "./tsconfig.base.json",
+  "references": [
+    {
+      "path": "./packages/@starzkg/vuepress-plugin-live2d-widget/tsconfig.build.json"
+    }
+  ],
+  "files": []
+}

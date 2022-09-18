@@ -1,0 +1,53 @@
+{
+  "name": "@starzkg/vuepress-plugin-live2d-widget",
+  "version": "1.0.0-beta.27",
+  "description": "Live2D Widget plugin for VuePress",
+  "keywords": [
+    "vuepress-plugin",
+    "vuepress",
+    "live2d",
+    "live2d-widget"
+  ],
+  "homepage": "https://vuepress-star.shentuzhigang.cn",
+  "bugs": {
+    "url": "https://github.com/vuepress-star/vuepress-plugin-live2d/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vuepress-star/vuepress-plugin-live2d.git",
+    "directory": "packages/@starzkg/vuepress-plugin-live2d-widget"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Starzkg",
+    "email": "shentuzhigang@shentuzhigang.cn",
+    "url": "https://shentuzhigang.cn"
+  },
+  "type": "module",
+  "exports": {
+    ".": "./lib/node/index.js",
+    "./client": "./lib/client/index.js",
+    "./package.json": "./package.json"
+  },
+  "main": "lib/node/index.js",
+  "types": "lib/node/index.d.ts",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "build": "tsc -b tsconfig.build.json",
+    "clean": "rimraf lib *.tsbuildinfo",
+    "copy": "cpx \"src/**/*.{css,svg,vue,scss}\" lib"
+  },
+  "dependencies": {
+    "@vuepress/client": "2.0.0-beta.50",
+    "@vuepress/core": "2.0.0-beta.50",
+    "@vuepress/shared": "2.0.0-beta.50",
+    "@vuepress/utils": "2.0.0-beta.50",
+    "current-device": "^0.10.2",
+    "live2d-widget": "^3.1.4"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
