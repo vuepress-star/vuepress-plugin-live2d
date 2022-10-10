@@ -17,7 +17,6 @@ export const live2dWidgetPlugin =
     }
 
     if (!options.model?.jsonPath) {
-      console.log(options)
       logger.error('model json path is invalid!')
       return {
         name: '@starzkg/vuepress-plugin-live2d-widget',
