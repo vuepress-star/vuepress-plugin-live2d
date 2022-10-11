@@ -12,7 +12,7 @@ importers:
       '@rollup/plugin-commonjs': 23.0.0
       '@rollup/plugin-json': 5.0.0
       '@rollup/plugin-node-resolve': 15.0.0
-      '@rollup/plugin-typescript': 9.0.0
+      '@rollup/plugin-typescript': 9.0.1
       '@types/node': 18.8.3
       '@types/webpack-env': 1.18.0
       '@vitest/coverage-istanbul': 0.24.1
@@ -45,7 +45,7 @@ importers:
       '@rollup/plugin-commonjs': 23.0.0_rollup@2.79.1
       '@rollup/plugin-json': 5.0.0_rollup@2.79.1
       '@rollup/plugin-node-resolve': 15.0.0_rollup@2.79.1
-      '@rollup/plugin-typescript': 9.0.0_hafrwlgfjmvsm7253l3bfjzhnq
+      '@rollup/plugin-typescript': 9.0.1_hafrwlgfjmvsm7253l3bfjzhnq
       '@types/node': 18.8.3
       '@types/webpack-env': 1.18.0
       '@vitest/coverage-istanbul': 0.24.1
@@ -1462,10 +1462,10 @@ packages:
       '@types/node': 14.18.31
       chalk: 4.1.2
       cosmiconfig: 7.0.1
-      cosmiconfig-typescript-loader: 4.1.1_nkerhdmbwk3wkxvbutn57cob4u
+      cosmiconfig-typescript-loader: 4.1.1_gpl3msxjb2n3qdkii2jvdrcxxe
       lodash: 4.17.21
       resolve-from: 5.0.0
-      ts-node: 10.9.1_sqjhzn5m3vxyw66a2xhtc43hby
+      ts-node: 10.9.1_fk6arlf3j7tudlucddpzvj2plq
       typescript: 4.8.4
     transitivePeerDependencies:
       - '@swc/core'
@@ -1847,8 +1847,8 @@ packages:
       rollup: 2.79.1
     dev: true
 
-  /@rollup/plugin-typescript/9.0.0_hafrwlgfjmvsm7253l3bfjzhnq:
-    resolution: {integrity: sha512-zGTFF6bt/Vl9LzsBfKsqNu01G3ILNhwmkGP/zciLv4bQ2JPNIAJEBabph4S8aq3pdhDNdm1ISUMQ9rBDzLIqLA==}
+  /@rollup/plugin-typescript/9.0.1_hafrwlgfjmvsm7253l3bfjzhnq:
+    resolution: {integrity: sha512-fj+CTk8+HvFCEwwDQdNgWd0lIJVXtMQ0Z3vH/ZgzFSbK2s1zs5wjZrjzrhViTTN+UF49+P69/tybgKRdGHpj/Q==}
     engines: {node: '>=14.0.0'}
     peerDependencies:
       rollup: ^2.14.0||^3.0.0
@@ -1867,18 +1867,6 @@ packages:
       rollup: 2.79.1
       tslib: 2.4.0
       typescript: 4.8.4
-    dev: true
-
-  /@rollup/pluginutils/3.1.0_rollup@2.79.1:
-    resolution: {integrity: sha512-GksZ6pr6TpIjHm8h9lSQ8pi8BE9VeubNT0OMJ3B5uZJ8pz73NPiqOtCog/x2/QzM1ENChPKxMDhiQuRHsqc+lg==}
-    engines: {node: '>= 8.0.0'}
-    peerDependencies:
-      rollup: ^1.20.0||^2.0.0
-    dependencies:
-      '@types/estree': 0.0.39
-      estree-walker: 1.0.1
-      picomatch: 2.3.1
-      rollup: 2.79.1
     dev: true
 
   /@rollup/pluginutils/4.2.1:
@@ -1960,10 +1948,6 @@ packages:
       '@types/estree': 0.0.51
       '@types/json-schema': 7.0.11
     dev: false
-
-  /@types/estree/0.0.39:
-    resolution: {integrity: sha512-EYNwp3bU+98cpU4lAWYYL7Zz+2gryWH1qbdDTidVd6hkiR6weksdbMadyXKXNPEkQFhXM+hVO9ZygomHXp+AIw==}
-    dev: true
 
   /@types/estree/0.0.51:
     resolution: {integrity: sha512-CuPgU6f3eT/XgKKPqKd/gLZV1Xmvf1a2R5POBOGQa6uv82xpls89HU5zKeVoyR8XzHd1RGNOlQlvUe3CFkjWNQ==}
@@ -3953,8 +3937,7 @@ packages:
   /core-util-is/1.0.3:
     resolution: {integrity: sha512-ZQBvi1DcpJ4GDqanjucZ2Hj3wEO5pZDS89BWbkcrvdxksJorwUDDZamX9ldFkp9aw2lmBDLgkObEA4DWNJ9FYQ==}
 
-
-  /cosmiconfig-typescript-loader/4.1.1_nkerhdmbwk3wkxvbutn57cob4u:
+  /cosmiconfig-typescript-loader/4.1.1_gpl3msxjb2n3qdkii2jvdrcxxe:
     resolution: {integrity: sha512-9DHpa379Gp0o0Zefii35fcmuuin6q92FnLDffzdZ0l9tVd3nEobG3O+MZ06+kuBvFTSVScvNb/oHA13Nd4iipg==}
     engines: {node: '>=12', npm: '>=6'}
     peerDependencies:
@@ -3970,7 +3953,7 @@ packages:
     dependencies:
       '@types/node': 14.18.31
       cosmiconfig: 7.0.1
-      ts-node: 10.9.1_sqjhzn5m3vxyw66a2xhtc43hby
+      ts-node: 10.9.1_fk6arlf3j7tudlucddpzvj2plq
       typescript: 4.8.4
     dev: true
 
@@ -5324,10 +5307,6 @@ packages:
   /estraverse/5.3.0:
     resolution: {integrity: sha512-MMdARuVEQziNTeJD8DgMqmhwR11BRQ/cBP+pLtYdSTnf3MIO8fFeiINEbX36ZdNlfU/7A9f3gUw49B3oQsvwBA==}
     engines: {node: '>=4.0'}
-
-  /estree-walker/1.0.1:
-    resolution: {integrity: sha512-1fMXF3YP4pZZVozF8j/ZLfvnR8NSIljt56UhbZ5PeeDmmGHpgpdwQt7ITlGvYaQukCvuBRMLEiKiYC+oeIg4cg==}
-    dev: true
 
   /estree-walker/2.0.2:
     resolution: {integrity: sha512-Rfkk/Mp/DL7JVje3u18FxFujQlTNR2q6QfMSMB7AvCBx91NGj/ba3kCfza0f6dVDbw7YlRf/nDrn7pQrCCyQ/w==}
@@ -9060,7 +9039,7 @@ packages:
     resolution: {integrity: sha512-Y/arvbn+rrz3JCKl9C4kVNfTfSm2/mEp5FSz5EsZSANGPSlQrpRI5M4PKF+mJnE52jOO90PnPSc3Ur3bTQw0gA==}
     dev: true
 
-  /ts-node/10.9.1_sqjhzn5m3vxyw66a2xhtc43hby:
+  /ts-node/10.9.1_fk6arlf3j7tudlucddpzvj2plq:
     resolution: {integrity: sha512-NtVysVPkxxrwFGUUxGYhfux8k78pQB3JqYBXlLRZgdGUqTO5wU/UyHop5p70iEbGhB7q5KmiZiU0Y3KlJrScEw==}
     hasBin: true
     peerDependencies:
