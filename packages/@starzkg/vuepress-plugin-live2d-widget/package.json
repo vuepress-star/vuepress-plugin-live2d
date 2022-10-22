@@ -41,10 +41,10 @@
     "copy": "cpx \"src/**/*.{css,svg,vue,scss,d.ts}\" lib"
   },
   "dependencies": {
-    "@vuepress/client": "2.0.0-beta.50",
-    "@vuepress/core": "2.0.0-beta.50",
-    "@vuepress/shared": "2.0.0-beta.50",
-    "@vuepress/utils": "2.0.0-beta.50",
+    "@vuepress/client": "2.0.0-beta.52",
+    "@vuepress/core": "2.0.0-beta.52",
+    "@vuepress/shared": "2.0.0-beta.52",
+    "@vuepress/utils": "2.0.0-beta.52",
     "current-device": "^0.10.2",
     "live2d-widget": "^3.1.4"
   },
