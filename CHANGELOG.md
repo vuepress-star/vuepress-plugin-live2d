@@ -1,3 +1,13 @@
+## [1.1.2](https://github.com/shentuzhigang/vuepress-plugin-live2d/compare/v1.1.1...v1.1.2) (2022-10-28)
+
+
+### Bug Fixes
+
+* **deps:** update dependency vue to v3.2.41 ([#40](https://github.com/shentuzhigang/vuepress-plugin-live2d/issues/40)) ([fd1d08e](https://github.com/shentuzhigang/vuepress-plugin-live2d/commit/fd1d08e8e98b62b4e72c6a5f23b0aff1212c97a5))
+* update vuepress ([19c8f04](https://github.com/shentuzhigang/vuepress-plugin-live2d/commit/19c8f0475375f284ad19c828d636611247771f23))
+
+
+
 ## [1.1.1](https://github.com/shentuzhigang/vuepress-plugin-live2d/compare/v1.1.0...v1.1.1) (2022-10-22)
 
 
