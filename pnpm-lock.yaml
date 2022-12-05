@@ -34,7 +34,7 @@ importers:
       tslib: 2.4.0
       tsup: 6.3.0
       typescript: 4.8.4
-      vite: 3.2.1
+      vite: 3.2.5
       vitest: 0.24.3
     devDependencies:
       '@babel/core': 7.19.3
@@ -67,7 +67,7 @@ importers:
       tslib: 2.4.0
       tsup: 6.3.0_mwhvu7sfp6vq5ryuwb6hlbjfka
       typescript: 4.8.4
-      vite: 3.2.1
+      vite: 3.2.5_@types+node@18.11.7
       vitest: 0.24.3
 
   example/.vuepress:
@@ -102,7 +102,7 @@ importers:
       anywhere: 1.6.0
       sass-loader: 13.1.0
       vue: 3.2.41
-      vuepress: 2.0.0-beta.53_ku44xdvb57kzafqmhuhbppdlxi
+      vuepress: 2.0.0-beta.53_i5ful644hbdpmu6r6rybeglfju
 
   packages/@starzkg/vuepress-plugin-live2d-widget:
     specifiers:
@@ -9265,17 +9265,20 @@ packages:
       fsevents: 2.3.2
     dev: false
 
-  /vite/3.2.1:
-    resolution: {integrity: sha512-ADtMkfHuWq4tskJsri2n2FZkORO8ZyhI+zIz7zTrDAgDEtct1jdxOg3YsZBfHhKjmMoWLOSCr+64qrEDGo/DbQ==}
+  /vite/3.2.5_@types+node@18.11.7:
+    resolution: {integrity: sha512-4mVEpXpSOgrssFZAOmGIr85wPHKvaDAcXqxVxVRZhljkJOMZi1ibLibzjLHzJvcok8BMguLc7g1W6W/GqZbLdQ==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
     peerDependencies:
+      '@types/node': '>= 14'
       less: '*'
       sass: '*'
       stylus: '*'
       sugarss: '*'
       terser: ^5.4.0
     peerDependenciesMeta:
+      '@types/node':
+        optional: true
       less:
         optional: true
       sass:
@@ -9287,6 +9290,7 @@ packages:
       terser:
         optional: true
     dependencies:
+      '@types/node': 18.11.7
       esbuild: 0.15.12
       postcss: 8.4.18
       resolve: 1.22.1
@@ -9327,7 +9331,7 @@ packages:
       tinybench: 2.3.0
       tinypool: 0.3.0
       tinyspy: 1.0.2
-      vite: 3.2.1
+      vite: 3.2.5_@types+node@18.11.7
     transitivePeerDependencies:
       - less
       - sass
@@ -9411,7 +9415,7 @@ packages:
       '@vue/shared': 3.2.41
     dev: false
 
-  /vuepress-vite/2.0.0-beta.53_ku44xdvb57kzafqmhuhbppdlxi:
+  /vuepress-vite/2.0.0-beta.53_i5ful644hbdpmu6r6rybeglfju:
     resolution: {integrity: sha512-kITVMM+LcV5mDQXQXAKgK0adAGMm7oyPls6HPTLM9gUvpSs2A19zfwf8zFoxIF9X+ANay4Tg87egtnJOcp8Wcg==}
     hasBin: true
     peerDependencies:
@@ -9435,11 +9439,11 @@ packages:
       - ts-node
     dev: false
 
-  /vuepress/2.0.0-beta.53_ku44xdvb57kzafqmhuhbppdlxi:
+  /vuepress/2.0.0-beta.53_i5ful644hbdpmu6r6rybeglfju:
     resolution: {integrity: sha512-swnH25oCHAE0ZIXBAp4gaalIsrxLLn+mguekOybwLcTNQUgbcqf8EXwVxOgN663JzPuHcxRAJg3nN/swKsFifQ==}
     hasBin: true
     dependencies:
-      vuepress-vite: 2.0.0-beta.53_ku44xdvb57kzafqmhuhbppdlxi
+      vuepress-vite: 2.0.0-beta.53_i5ful644hbdpmu6r6rybeglfju
     transitivePeerDependencies:
       - '@vue/composition-api'
       - '@vuepress/client'
